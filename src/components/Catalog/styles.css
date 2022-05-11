@@ -1,0 +1,94 @@
+.block-input {
+    background: #ededed;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .input-block__catalog {
+    padding: 21px 14px 24px 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .input-block__catalog input {
+    background: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+    border: transparent;
+    height: 40px;
+  }
+  .input-block__catalog input::placeholder {
+    padding: 12px 11px 0px 5px;
+  }
+  .input-block__catalog button {
+    background: #00285f;
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    padding: 12px 8px 12px 14px;
+  }
+  
+  /* Cards car */
+  
+  .card-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 14px 14px 15px 20px;
+    max-width: 350px;
+    background-color: #ededed;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .card-top h4{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    margin-top: 8px;
+  }
+  .card-top span{
+    display: flex;
+    max-width: 264px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #585858;
+    margin-top: 14px;
+  }
+  .card-btn__block button{
+    width: 100%;
+    background-color: #00285f;
+    border-radius: 5px;
+    padding: 12px 80px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  .block-card {
+    background: #ededed;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 576px) {
+    .block-search {
+      margin-top: 30px;
+    }
+    .input-block__catalog {
+      justify-content: flex-start;
+    }
+    .input-block__catalog input {
+      width: 100%;
+    }
+    .input-block__catalog button {
+      width: 174px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .input-block__catalog {
+      padding: 42px 97px;
+    }
+  }
+  
